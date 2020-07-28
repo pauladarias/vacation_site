@@ -71,3 +71,9 @@ ul li a {
 .active a {
   color: #b7ef8e;
 }
+
+.open-nav {
+  visibility: unset;
+  opacity: 1;
+  transform: traslateX(0);
+}
