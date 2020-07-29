@@ -172,8 +172,8 @@ ul.features li p,
   color: white; 
 }
 
-.features img {
-  width: 30%; 
+ul.features li img {
+  width: 50px; 
 }
 
 ul.features {
@@ -291,9 +291,14 @@ p.test-auth {
   }
 }
 
-@media (min-width: 850px) {
-  .logo {
-    color:green;
-  }
+@media (min-width: 650px) {
+
+  ul.features {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 3em;
+}
+
 }
 
