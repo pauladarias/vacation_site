@@ -79,7 +79,7 @@ ul li a {
 }
 
 .forest-hero {
-  background: url(images/forest.jpg);
+  background: url(images/forest1.jpg);
   background-size: cover;
   color: rgb(245, 241, 241);
 }
@@ -113,4 +113,62 @@ h1 span {
   border-radius: 0.3em;
   margin-bottom: 2em;
   margin-top: 1em;
+}
+
+ul.featured-cabins {
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul.featured-cabins li {
+  margin-bottom: 3em;
+}
+
+.cabin-img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cabin-title {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.cabin-desc {
+  padding: 1.4em;
+}
+
+.cabin-desc,
+ul.features li p,
+.left p {
+  line-height: 1.9em;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+.cabin-cta {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cabin-cta span{
+  color: white; 
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.cabin-cta img {
+  width: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.cabin-cta:after {
+  position: absolute; 
+  content: '';
+  bottom: -12px; 
+  background: white; 
+  width: 86%; 
+  height: 1px; 
+
+
 }
