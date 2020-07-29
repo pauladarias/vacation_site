@@ -169,6 +169,74 @@ ul.features li p,
   background: white; 
   width: 86%; 
   height: 1px; 
-
-
 }
+
+.feature-container {
+  background: #1A1A1A;
+  color: white; 
+}
+
+.features img {
+  width: 30%; 
+}
+
+ul.features {
+  margin: 3em auto; 
+  width: 70%;
+}
+
+ul.features li p {
+  color: #CCCCCC; 
+  margin-bottom: 2em;
+}
+
+
+.main-quote {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2em;
+  font-style: italic;
+  margin-bottom: .5em ;
+}
+
+.main-cite {
+  margin-bottom: 3em;
+  display: block; 
+}
+
+ul.testimonials {
+  margin: 3em 0;
+}
+
+ul.testimonials li {
+  margin: 3em 0;
+}
+
+.test-img {
+  border-radius: 50%;
+  width: 70px; 
+  height: 75px;
+}
+
+p.test-desc {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+p.test-auth {
+  font-weight: bold; 
+  font-size: .85em;
+}
+
+.last-container {
+  position: relative; 
+}
+
+.fern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 75%;
+  opacity: .1;
+}
+
